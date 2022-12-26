@@ -1,6 +1,6 @@
 package ma.enset.customerservicecommand.controllers;
 
-import commands.CreateCustomerCommand;
+import commands.customer.CreateCustomerCommand;
 import dtos.CreateCustomerDTO;
 import lombok.AllArgsConstructor;
 import org.axonframework.commandhandling.gateway.CommandGateway;

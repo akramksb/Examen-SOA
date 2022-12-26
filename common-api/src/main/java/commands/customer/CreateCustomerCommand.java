@@ -1,8 +1,9 @@
-package commands;
+package commands.customer;
 
+import commands.BaseCommand;
 import lombok.Getter;
 
-public class CreateCustomerCommand extends BaseCommand<String>{
+public class CreateCustomerCommand extends BaseCommand<String> {
     @Getter private String name;
     @Getter private String address;
     @Getter private String email;

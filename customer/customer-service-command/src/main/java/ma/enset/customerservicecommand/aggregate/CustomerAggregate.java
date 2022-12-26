@@ -1,6 +1,6 @@
 package ma.enset.customerservicecommand.aggregate;
 
-import commands.CreateCustomerCommand;
+import commands.customer.CreateCustomerCommand;
 import events.CustomerCreatedEvent;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;

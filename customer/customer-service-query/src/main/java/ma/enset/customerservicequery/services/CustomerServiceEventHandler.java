@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 @AllArgsConstructor
 @Slf4j
-public class CustomerServiceHandler {
+public class CustomerServiceEventHandler {
     private CustomerRepository customerRepository;
 
     @EventHandler
